@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SplashScreen">
+    
+   <com.makeramen.roundedimageview.RoundedImageView
+       android:layout_width="match_parent"
+       android:layout_height="450dp"
+       android:id="@+id/splashScreen"
+       android:src="@drawable/imgsplash"
+       android:scaleType="centerCrop"
+       app:riv_corner_radius_bottom_left="30dp"
+       app:riv_corner_radius_bottom_right="30dp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_editor_absoluteX="0dp"
+       tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:fontFamily="@font/quicksandbbold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/splashScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#000000"
+        android:text="The Perfect Move"
+        tools:ignore="MissingConstraints" />
+    
+    <TextView
+        android:id="@+id/subTitle1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/quicksandmedium"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/title1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#252525"
+        android:text="we help you walk comfortably and without error"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/quicksandmedium"
+        android:text="Start Walking"
+        android:background="@drawable/button_background"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

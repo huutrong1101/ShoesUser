@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="back_button" type="id" />
+    <item name="like_button" type="id" />
+    <item name="prod_name" type="id" />
+    <item name="big_image" type="id" />
+    <item name="rating" type="id" />
+    <item name="imageView" type="id" />
+    <item name="detailsText" type="id" />
+    <item name="shoeSize" type="id" />
+    <item name="buy_button" type="id" />
+    <item name="prices" type="id" />
+    <item name="button3" type="id" />
+    <item name="button2" type="id" />
+    <item name="button" type="id" />
+    <item name="button5" type="id" />
+    <item name="button4" type="id" />
+</resources>
